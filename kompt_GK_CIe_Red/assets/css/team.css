@@ -35,11 +35,6 @@
     margin-bottom: 34px;
 }
 
-.after-section {
-    /* border-bottom: 0.1px solid #B4B4B4; */
-    /* padding: 50px 0; */
-}
-
 .sous-titre {
     font-size: 1.36rem;
     line-height: 1.86rem;
@@ -68,9 +63,6 @@
     gap: 0px;
 }
 
-.senior-advisor-section .photos-profil-list, .investment-team-section .photos-profil-list{
-    /* max-width: 700px; */
-}
 
 .senior-advisor .know-contain-number{
     display: flex;
@@ -120,10 +112,6 @@
 /*
 ----------senior-advisor-section--------
 */
-
-.partner-contain {
-    /* padding: 50px 0; */
-}
 
 .senior-advisor-title,
 .partner-contain-title,
@@ -380,4 +368,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+}
+
+
+
+/* Css ajouté pour GK_Cle  */
+
+
+.our-team{
+    max-width: 600px;
 }

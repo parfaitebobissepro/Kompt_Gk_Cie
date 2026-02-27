@@ -22,13 +22,13 @@ main {
     --app-font-size: 15px;
     --app-font-weight: 300;
     /* app-color */
-    --app-color-primary: #AE9C86;
+    --app-color-primary: #416e83;
     --app-color-primary-opacited: rgba(116, 81, 235, 0.08);
     --app-color-primary-opacited-ligth: rgba(116, 81, 235, 0.12);
     --app-color-accent: "";
     --app-color-gray: "";
-    --app-color-text-primary: #4F5955;
-    --app-color-text-accent: #AE9C86;
+    --app-color-text-primary: #212529;
+    --app-color-text-accent: #416e83;
     --app-color-text-white: #FFF;
     --app-color-text-gray: rgb(97, 97, 97);
     --app-color-border-gray-ligth: #dad9dc;
@@ -665,8 +665,6 @@ b {
     align-items: start;
     justify-content: center;
 }
-
-.table-contain-section .bloc-type-twins-large {}
 
 .table-contain-title {
     text-align: center;

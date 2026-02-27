@@ -885,6 +885,10 @@ cite {
         display: block;
     }
 
+    .rating-bloc-ladder {
+        display: block;
+    }
+
     .our-expertise-contain-title {
         text-align: inherit;
     }
