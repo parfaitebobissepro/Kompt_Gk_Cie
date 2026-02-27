@@ -1,241 +1,271 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="favicon" sizes="180x180" href="/favicon.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-            crossorigin="anonymous"
-        >
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link rel="stylesheet" href="./assets/css/sidebar.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/bootstrap-override.css">
-        <link rel="stylesheet" href="./assets/css/header.css">
-        <link rel="stylesheet" href="./assets/css/footer.css">
-        <link rel="stylesheet" href="./assets/css/ripple.css">
-        <link rel="stylesheet" href="./assets/css/bloc-types.css">
-        <link rel="stylesheet" href="./assets/css/components.css">
-        <link rel="stylesheet" href="./assets/css/strategy.css">
-        <link rel="stylesheet" href="./assets/css/team.css">
-        <title>GK & Cie Ratings - Notation</title>
-    </head>
-    <body class="loading">
-        <div id="spinner">
-            <div class="lds-ring">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" sizes="180x180" href="/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/sidebar.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-override.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/ripple.css">
+    <link rel="stylesheet" href="./assets/css/bloc-types.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/strategy.css">
+    <link rel="stylesheet" href="./assets/css/team.css">
+    <title>GK & Cie Ratings - Notation</title>
+</head>
+
+<body class="loading">
+    <div id="spinner">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!--Header-->
-        <header role="banner">
-            <div class="constraint-box d-flex justify-content-between padding-default">
-                <div id="header-container-logo">
-                    <a href="index.html">
+    </div>
+    <!--Header-->
+    <header role="banner">
+        <div class="constraint-box d-flex justify-content-between padding-default">
+            <div id="header-container-logo">
+                <a href="index.html">
                     <img height="46" src="./assets/images/logo.png" class="logo" alt="">
-                    </a>
-                </div>
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="collapse navbar-collapse show">
-                        <div class="navbar-collapse-links">
-                            <ul class="navbar-nav mr-auto header-navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">
-                                        <span> Société</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="notation.html">
-                                        <span>Notation</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="methodologies.html">
-                                        <span>Méthodologies</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="navbar-collapse-contact-link rigth-bloc-header">
-                            <a href="javascript:void(0)" class="responsive-menu-button" class="navbar-toggler"
-                                id="sidebarCollapse">
-                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4 18L20 18" stroke="var(--app-color-primary)" stroke-width="2"
-                                        stroke-linecap="round" />
-                                    <path d="M4 12L20 12" stroke="var(--app-color-primary)" stroke-width="2"
-                                        stroke-linecap="round" />
-                                    <path d="M4 6L20 6" stroke="var(--app-color-primary)" stroke-width="2"
-                                        stroke-linecap="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </nav>
+                </a>
             </div>
-        </header>
-        <!--Main-->
-        <main>
-            <section class="constraint-box bloc-type-twins-large section-default our-team-section" style="margin-top: 2rem;">
-                <div class="bloc-type-twins-large-first after-section">
-                    <div class="our-team spacing-responsive padding-default">
-                        <h5 class="highlighted uppercase">LE PROCESSUS DE NOTATION FINANCIÈRE</h5>
-                        <div class="our-team-title">
-                                <span>Le processus de notation se déroule en plusieurs étapes successives, allant du
-                                    cadrage initial de la mission à l’attribution de la note par un comité de notation, puis
-                                    à une surveillance continue permettant d’actualiser la notation en fonction de
-                                    l’évolution des risques.
-                                </span>
-                        </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse show">
+                    <div class="navbar-collapse-links">
+                        <ul class="navbar-nav mr-auto header-navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">
+                                    <span> Société</span>
+                                </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="notation.html">
+                                    <span>Notation</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="methodologies.html">
+                                    <span>Méthodologies</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-collapse-contact-link rigth-bloc-header">
+                        <a href="javascript:void(0)" class="responsive-menu-button" class="navbar-toggler"
+                            id="sidebarCollapse">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 18L20 18" stroke="var(--app-color-primary)" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M4 12L20 12" stroke="var(--app-color-primary)" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <path d="M4 6L20 6" stroke="var(--app-color-primary)" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <div class="bloc-type-twins-large-second relative" style="text-align: center;">
-                    <img class="strategy-image" id="strategy-image-first" src="./assets/images/notation/notation_1.png" alt="">
+            </nav>
+        </div>
+    </header>
+    <!--Main-->
+    <main>
+        <section class="constraint-box bloc-type-twins-large section-default our-team-section"
+            style="margin-top: 2rem;">
+            <div class="bloc-type-twins-large-first after-section">
+                <div class="our-team spacing-responsive padding-default">
+                    <h1 class="highlighted uppercase title1">LE PROCESSUS DE NOTATION FINANCIÈRE</h1>
+                        <p>Le processus de notation se déroule en plusieurs étapes successives, allant du
+                            cadrage initial de la mission à l’attribution de la note par un comité de notation, puis
+                            à une surveillance continue permettant d’actualiser la notation en fonction de
+                            l’évolution des risques.
+                        </p>
+                    </div>
                 </div>
-            </section>
-            <section class="constraint-box bloc-type-twins-large section-default our-expertise-section-notation rating-bloc-ladder impact_investing">
-                <div class="our-expertise-contain spacing-responsive rating-bloc-ladder-contain padding-default">
-                    <div class="bloc-type-twins-large-first rating-bloc-ladder-contain-title flex-1">
+            </div>
+            <div class="bloc-type-twins-large-second relative" style="text-align: center;">
+                <img class="strategy-image" id="strategy-image-first" src="./assets/images/notation/notation_1.png"
+                    alt="">
+            </div>
+        </section>
+        <section
+            class="constraint-box section-default our-expertise-section-notation rating-bloc-ladder impact_investing">
+            <div
+                class="our-expertise-contain spacing-responsive rating-bloc-ladder-contain padding-default bloc-type-twins-large">
+                <div class="bloc-type-twins-large-first rating-bloc-ladder-contain-title">
+                    <div class="rating-bloc-ladder-contain-seg1 our-team">
                         <h1 class="title1">
                             <span>NOTRE ÉCHELLE DE NOTATION LONG TERME</span>
                         </h1>
-                        <div class="rating-bloc-ladder-contain-seg1">
-                            <p>
-                                Les notes sont attribuées sur une échelle de risque comprenant 20 crans, regroupés en deux grandes 
-                                classes de risques (Investment Grade et Speculative Grade), elles-mêmes subdivisées en 8 catégories 
-                                de notation (AAA à D), la note D correspondant au défaut avéré sur le service de la dette.
+                        <p>
+                            Les notes sont attribuées sur une échelle de risque comprenant 20 crans, regroupés en deux
+                            grandes
+                            classes de risques (Investment Grade et Speculative Grade), elles-mêmes subdivisées en 8
+                            catégories
+                            de notation (AAA à D), la note D correspondant au défaut avéré sur le service de la dette.
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc-type-twins-large-second relative approche" style="text-align: center;">
+                    <img id="long-term-rating-image"
+                        src="./assets/images/notation/notation_2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section
+            class="constraint-box bloc-type-twins-large section-default our-expertise-section-rating impact_investing">
+            <div class="our-expertise-contain spacing-responsive padding-default">
+                <div class="bloc-type-twins-large-first our-expertise-contain-title">
+                    <h1 class="title1">
+                        <span>LA TABLE DE CORRESPONDANCE DES NOTES LONG-TERME</span>
+                    </h1>
+                    <div class="our-expertise-contain-seg1">
+                        <p>
+                            GK & Cie Ratings, dont la mission est centrée sur l’Afrique centrale, a établi à titre
+                            indicatif une correspondance entre
+                            son échelle de notation et celles des principales agences internationales (Fitch, Moody’s,
+                            S&P). Cette passerelle s’appuie
+                            sur le plafond souverain (country ceiling)* retenu pour les zones UEMOA et CEMAC, qui fixe
+                            la note maximale théorique atteignable
+                            dans ces juridictions et situe les meilleures signatures autour de BBB− sur l’échelle
+                            internationale. Le tableau ci-après fournit
+                            ainsi une approximation de l’équivalent international d’une note attribuée par GK & Cie
+                            Ratings.
+                        </p>
+                        <p>
+                            <i>
+                                (*) Le plafond souverain (ou country ceiling) représente la note maximale
+                                théorique qu’un émetteur (État, entreprise, banque) peut atteindre dans une
+                                juridiction donnée, notamment pour des engagements en devises.
+                            </i>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="bloc-type-twins-large-second approche" style="text-align: center;">
+                    <div class="our-expertise-item ">
+                        <div class="our-expertise-details">
+                            <img id="long-term-note-image"
+                                src="./assets/images/notation/notation_3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="constraint-box bloc-type-twins-large section-default our-expertise-section detail_strategy">
+            <div class="our-expertise-contain spacing-responsive padding-default">
+                <div class="our-expertise-contain-title">
+                    <h1 class="title1">
+                        <span>LE PÉRIMÈTRE D’ÉMETTEURS</span>
+                    </h1>
+                </div>
+                <div class="our-expertise-group">
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869338.6954354582243">
+                            <span class="uppercase">Corporates (entreprises industrielles et commerciales) </span>
+                            <p class="our-expertise-detail">
+                                Notation de la capacité d’une entreprise à honorer ses engagements financiers,
+                                à partir de l’analyse de son activité, de sa rentabilité, de sa génération de
+                                trésorerie,
+                                de son endettement, de sa liquidité et de sa gouvernance.
                             </p>
                         </div>
                     </div>
-                    <div class="bloc-type-twins-large-second relative flex-1 approche" style="text-align: center;">
-                        <img class="largers-images" id="long-term-rating-image" src="./assets/images/notation/notation_2.png" alt="">                                
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869869.4492114760018">
+                            <span class="uppercase">Institutions financières (banques, assurances, microfinance,
+                                etc.)</span>
+                            <p class="our-expertise-detail">
+                                Évaluation de la solidité d’un établissement financier et de sa capacité à faire face à
+                                ses
+                                obligations (dépôts, dettes, sinistres), en tenant compte de la qualité des actifs, de
+                                la capitalisation,
+                                de la rentabilité, de la liquidité, de la gestion des risques et du cadre prudentiel.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <section class="constraint-box bloc-type-twins-large section-default our-expertise-section-rating impact_investing">
-                <div class="our-expertise-contain spacing-responsive padding-default">
-                    <div class="bloc-type-twins-large-first our-expertise-contain-title">
-                        <h1 class="title1">
-                            <span>LA TABLE DE CORRESPONDANCE DES NOTES LONG-TERME</span>
-                        </h1>
-                        <div class="our-expertise-contain-seg1">
-                            <p>
-                                GK & Cie Ratings, dont la mission est centrée sur l’Afrique centrale, a établi à titre indicatif une correspondance entre 
-                                son échelle de notation et celles des principales agences internationales (Fitch, Moody’s, S&P). Cette passerelle s’appuie 
-                                sur le plafond souverain (country ceiling)* retenu pour les zones UEMOA et CEMAC, qui fixe la note maximale théorique atteignable
-                                dans ces juridictions et situe les meilleures signatures autour de BBB− sur l’échelle internationale. Le tableau ci-après fournit 
-                                ainsi une approximation de l’équivalent international d’une note attribuée par GK & Cie Ratings. 
+                <div class="our-expertise-group">
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869338.6954354582243">
+                            <span class="uppercase">Entités du secteur public (collectivités locales et entreprises
+                                publiques)</span>
+                            <p class="our-expertise-detail">
+                                Appréciation de la capacité d’une collectivité ou d’une entreprise publique à servir sa
+                                dette,
+                                en intégrant le cadre institutionnel, l’autonomie financière, la structure des recettes,
+                                la discipline budgétaire, la liquidité, la dette et le soutien potentiel de la tutelle.
                             </p>
-                            <p>
-                                <i>
-                                    (*) Le plafond souverain (ou country ceiling) représente la note maximale
-                                    théorique qu’un émetteur (État, entreprise, banque) peut atteindre dans une
-                                    juridiction donnée, notamment pour des engagements en devises.
-                                </i> 
+                        </div>
+                    </div>
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869869.4492114760018">
+                            <span class="uppercase">États souverains </span>
+                            <p class="our-expertise-detail">
+                                Analyse de la capacité et de la volonté d’un État à honorer sa dette,
+                                à travers ses fondamentaux macroéconomiques, ses finances publiques, sa position
+                                extérieure,
+                                la flexibilité de sa politique économique et ses facteurs institutionnels et politiques.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-expertise-group">
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869338.6954354582243">
+                            <span class="uppercase">Fonds (OPC et assimilés) </span>
+                            <p class="our-expertise-detail">
+                                Évaluation du profil de risque d’un fonds et de sa capacité à respecter sa politique
+                                d’investissement et à faire face aux rachats, en examinant la qualité et la liquidité du
+                                portefeuille,
+                                la gestion, la gouvernance et la robustesse opérationnelle (dépositaire, valorisation,
+                                contrôle).
 
                             </p>
                         </div>
                     </div>
-                    <div class="bloc-type-twins-large-second approche" style="text-align: center;">
-                        <div class="our-expertise-item ">
-                            <div class="our-expertise-details">
-                                <img class="largers-images" id="long-term-note-image" src="./assets/images/notation/notation_3.png" alt="">                                
-                            </div>
+                    <div class="our-expertise-item1 flex gap-25">
+                        <div class="our-expertise-details">
+                            <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt=""
+                                data-dom-i18n-id="i18n1710688609869869.4492114760018">
+                            <span class="uppercase">Financements structurés, instruments de dettes et titrisation
+                            </span>
+                            <p class="our-expertise-detail">
+                                Notation du risque de crédit d’un instrument ou d’une transaction (obligation, billet,
+                                sukuk, prêt, ABS/MBS),
+                                en analysant les termes contractuels, la priorité des paiements, les sûretés et
+                                rehaussements, le collatéral,
+                                le cadre juridique et les risques opérationnels liés à la structure.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="constraint-box bloc-type-twins-large section-default our-expertise-section detail_strategy">
-                <div class="our-expertise-contain spacing-responsive padding-default">
-                    <div class="our-expertise-contain-title">
-                        <h1 class="title1">
-                            <span>LE PÉRIMÈTRE D’ÉMETTEURS</span>
-                        </h1>
-                    </div>
-                    <div class="our-expertise-group">
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image" src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869338.6954354582243">
-                                <span class="uppercase">Corporates (entreprises industrielles et commerciales) </span>
-                                <p class="our-expertise-detail">
-                                    Notation de la capacité d’une entreprise à honorer ses engagements financiers, 
-                                    à partir de l’analyse de son activité, de sa rentabilité, de sa génération de trésorerie, 
-                                    de son endettement, de sa liquidité et de sa gouvernance.                     
-                                </p>
-                            </div>
-                        </div>
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image"  src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869869.4492114760018">
-                                <span class="uppercase">Institutions financières (banques, assurances, microfinance, etc.)</span>
-                                <p class="our-expertise-detail" >
-                                    Évaluation de la solidité d’un établissement financier et de sa capacité à faire face à ses 
-                                    obligations (dépôts, dettes, sinistres), en tenant compte de la qualité des actifs, de la capitalisation, 
-                                    de la rentabilité, de la liquidité, de la gestion des risques et du cadre prudentiel.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="our-expertise-group">
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image"  src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869338.6954354582243">
-                                <span class="uppercase">Entités du secteur public (collectivités locales et entreprises publiques)</span>
-                                <p class="our-expertise-detail">
-                                        Appréciation de la capacité d’une collectivité ou d’une entreprise publique à servir sa dette, 
-                                        en intégrant le cadre institutionnel, l’autonomie financière, la structure des recettes, 
-                                        la discipline budgétaire, la liquidité, la dette et le soutien potentiel de la tutelle.                                                                                          
-                                </p>
-                            </div>
-                        </div>
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image"  src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869869.4492114760018">
-                                <span  class="uppercase">États souverains </span>
-                                <p class="our-expertise-detail" >
-                                    Analyse de la capacité et de la volonté d’un État à honorer sa dette, 
-                                    à travers ses fondamentaux macroéconomiques, ses finances publiques, sa position extérieure, 
-                                    la flexibilité de sa politique économique et ses facteurs institutionnels et politiques.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="our-expertise-group">
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image"  src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869338.6954354582243">
-                                <span  class="uppercase">Fonds (OPC et assimilés) </span>
-                                <p class="our-expertise-detail" >
-                                    Évaluation du profil de risque d’un fonds et de sa capacité à respecter sa politique 
-                                        d’investissement et à faire face aux rachats, en examinant la qualité et la liquidité du portefeuille, 
-                                        la gestion, la gouvernance et la robustesse opérationnelle (dépositaire, valorisation, contrôle).
-                                                                                                          
-                                </p>
-                            </div>
-                        </div>
-                        <div class="our-expertise-item1 flex gap-25">
-                            <div class="our-expertise-details">
-                                <img class="our-expertise-item1-image"  src="./assets/images/expertises/arrow.svg" alt="" data-dom-i18n-id="i18n1710688609869869.4492114760018">
-                                <span  class="uppercase">Financements structurés, instruments de dettes et titrisation </span>
-                                <p class="our-expertise-detail" >
-                                    Notation du risque de crédit d’un instrument ou d’une transaction (obligation, billet, sukuk, prêt, ABS/MBS), 
-                                    en analysant les termes contractuels, la priorité des paiements, les sûretés et rehaussements, le collatéral, 
-                                    le cadre juridique et les risques opérationnels liés à la structure.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <div class="constraint-box">
@@ -266,12 +296,15 @@
             <div class="footer-container">
                 <div>
                     <span class="footer-title">
-                       À propos
+                        À propos
                     </span>
                     <ul class="footer-list">
                         <li>
-                            <p>Spécialiste de la notation financière et extra-financière en monnaie locale, nous éclairons les décisions des investisseurs et des prêteurs, afin d’accélérer le développement des marchés africains et des projets durables.</p>
-                            <p> <b>GK & Cie Ratings SAS</b> <br> Société par Actions Simplifiées <br> Au capital de 10 000 000 FCFA <br> <span>Douala – Cameroun</span><br> <b>Agréée COSUMAF N°XXXXXXX</b></p>
+                            <p>Spécialiste de la notation financière et extra-financière en monnaie locale, nous
+                                éclairons les décisions des investisseurs et des prêteurs, afin d’accélérer le
+                                développement des marchés africains et des projets durables.</p>
+                            <p> <b>GK & Cie Ratings SAS</b> <br> Société par Actions Simplifiées <br> Au capital de 10
+                                000 000 FCFA <br> <span>Douala – Cameroun</span><br> <b>Agréée COSUMAF N°XXXXXXX</b></p>
                         </li>
                     </ul>
                 </div>
@@ -303,8 +336,8 @@
                         Adresse
                     </span>
                     <div class="socials-networks-container">
-                        <p> Siège Social : Carrefour Idéal - Akwa, 2éme étage, 
-                            BP 2007 Douala - Cameroun                            
+                        <p> Siège Social : Carrefour Idéal - Akwa, 2éme étage,
+                            BP 2007 Douala - Cameroun
                         </p>
                         <div>
                             <div class="flex gap-10 align-items-center item-adress">
@@ -345,12 +378,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active-ripple"
-                        href="notation.html">
+                    <a class="nav-link active-ripple" href="notation.html">
                         <span class="event-none">Notation</span>
                     </a>
                 </li>
-                 <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link active-ripple" href="methodologies.html">
                         <span class="event-none">Méthodologies</span>
                     </a>
@@ -365,43 +397,74 @@
                 <div class="flex-1">
                     <h3 class="welcomeTitle highlighted">BIENVENUE SUR LE SITE DE GK & Cie Ratings</h3>
                     <span class="your-are">Vous êtes ...</span>
-                   <ul class="container-role-visiteur">
-                        <li class="role-visiteur"><button onclick="selectRole(this)">Investisseur professionnel</button></li>
-                        <li class="role-visiteur"><button onclick="selectRole(this)">Investisseur Non-Professionnel</button></li>
+                    <ul class="container-role-visiteur">
+                        <li class="role-visiteur"><button onclick="selectRole(this)">Investisseur professionnel</button>
+                        </li>
+                        <li class="role-visiteur"><button onclick="selectRole(this)">Investisseur
+                                Non-Professionnel</button></li>
                         <li class="role-visiteur"><button onclick="selectRole(this)">Non Investisseur</button></li>
-                   </ul>
-                   <div class="welocme-content">
+                    </ul>
+                    <div class="welocme-content">
                         <h4 class="highlighted">Condition d’accès</h4>
                         <p>
-                            Ce site a spécialement été conçu pour une clientèle professionnelle au sens de l’article L 533-16 du code monétaire et financier et non pas pour le grand public. 
-                            L'accès aux produits et services présentés peut faire l'objet de restrictions à l'égard de certaines personnes ou de certains pays, et notamment à l'égard des 
-                            investisseurs des Etats-Unis soumis une législation spécifique. Ce site Internet ne s'adresse pas aux personnes relevant d'une juridiction dans laquelle la publication 
-                            du site Internet ou son accès est interdit(e) en raison de leur nationalité ou de leur lieu de résidence. Ainsi, toute personne souhaitant accéder à ce site internet est prié 
-                            de s'assurer qu'il est juridiquement autorisé à se connecter au présent site dans le pays au sein duquel la connexion est établie. Plus généralement, les produits ou 
-                            services présentés sur ce site ne peuvent être souscrits par des investisseurs que dans les juridictions dans lesquelles leur commercialisation et leur promotion sont autorisées.
+                            Ce site a spécialement été conçu pour une clientèle professionnelle au sens de l’article L
+                            533-16 du code monétaire et financier et non pas pour le grand public.
+                            L'accès aux produits et services présentés peut faire l'objet de restrictions à l'égard de
+                            certaines personnes ou de certains pays, et notamment à l'égard des
+                            investisseurs des Etats-Unis soumis une législation spécifique. Ce site Internet ne
+                            s'adresse pas aux personnes relevant d'une juridiction dans laquelle la publication
+                            du site Internet ou son accès est interdit(e) en raison de leur nationalité ou de leur lieu
+                            de résidence. Ainsi, toute personne souhaitant accéder à ce site internet est prié
+                            de s'assurer qu'il est juridiquement autorisé à se connecter au présent site dans le pays au
+                            sein duquel la connexion est établie. Plus généralement, les produits ou
+                            services présentés sur ce site ne peuvent être souscrits par des investisseurs que dans les
+                            juridictions dans lesquelles leur commercialisation et leur promotion sont autorisées.
                         </p>
                         <h4 class="highlighted">Mise en œuvre</h4>
                         <p>
-                            Les informations communiquées par l’intermédiaire de ce site Web ne vous sont communiquées qu’aux termes et conditions des présentes et ne sont destinées qu’à votre utilisation à des fins professionnelles 
-                            ou personnelles internes et légitimes (les « fins autorisées »). Sans l’accord écrit de GK & Cie Ratings, vous n’êtes pas autorisé à stocker, télécharger, reproduire, vendre, redistribuer ou disposer des informations
+                            Les informations communiquées par l’intermédiaire de ce site Web ne vous sont communiquées
+                            qu’aux termes et conditions des présentes et ne sont destinées qu’à votre utilisation à des
+                            fins professionnelles
+                            ou personnelles internes et légitimes (les « fins autorisées »). Sans l’accord écrit de GK &
+                            Cie Ratings, vous n’êtes pas autorisé à stocker, télécharger, reproduire, vendre,
+                            redistribuer ou disposer des informations
                             de toute manière ou à toute autre fin que celles autorisées
                         </p>
                         <p>
-                            GK & Cie Ratings se réserve le droit d’accorder ou de révoquer l’autorisation d’utiliser le site Web gkcratings.com à son entière discrétion. 
-                            Bien que toutes les précautions raisonnables aient été prises pour veiller à l’exactitude, la sécurité et la confidentialité des informations disponibles par l’intermédiaire du site Internet gkcratings.com, 
-                            GK & Cie Ratings ne saurait cependant être tenu responsable des conséquences des agissements d’un utilisateur autorisé ou non autorisé. GK & Cie Ratings ne communique des informations que sur ses propres produits et 
-                            services et ne donne pas de conseils en investissement personnalisés. Les informations communiquées dans les présentes et l’utilisation que vous en faites ultérieurement peuvent, le cas échéant, 
-                            être soumises à certaines réglementations, conditions et restrictions externes légales ou autres. Toutes les utilisations que vous faites des informations doivent respecter les réglementations, 
-                            conditions et restrictions applicables à la région ou au territoire où vous utilisez les informations des présentes. Les informations contenues dans ce site Web (ou consultées à partir de ce site Web) sont donc soumises aux différentes 
-                            législations et réglementations qui s’appliquent dans ces territoires. Aucune des informations publiées ou mises à disposition par l’intermédiaire du site Web gkcratings.com n’est destinée à être publiée ou mise à disposition dans les territoires 
-                            où sa publication ou mise à disposition entraînerait une violation de la législation ou de la réglementation en vigueur. Toute référence dans le site Web à des valeurs mobilières particulières ne doit pas être entendue comme une recommandation 
-                            d’acheter ou de vendre ces valeurs, elles sont incluses uniquement à titre d’exemple. Les investisseurs doivent également noter qu’il est possible que les avis exprimés ne soient plus d’actualité et aient déjà été mis en œuvre par GK & Cie Ratings. 
+                            GK & Cie Ratings se réserve le droit d’accorder ou de révoquer l’autorisation d’utiliser le
+                            site Web gkcratings.com à son entière discrétion.
+                            Bien que toutes les précautions raisonnables aient été prises pour veiller à l’exactitude,
+                            la sécurité et la confidentialité des informations disponibles par l’intermédiaire du site
+                            Internet gkcratings.com,
+                            GK & Cie Ratings ne saurait cependant être tenu responsable des conséquences des agissements
+                            d’un utilisateur autorisé ou non autorisé. GK & Cie Ratings ne communique des informations
+                            que sur ses propres produits et
+                            services et ne donne pas de conseils en investissement personnalisés. Les informations
+                            communiquées dans les présentes et l’utilisation que vous en faites ultérieurement peuvent,
+                            le cas échéant,
+                            être soumises à certaines réglementations, conditions et restrictions externes légales ou
+                            autres. Toutes les utilisations que vous faites des informations doivent respecter les
+                            réglementations,
+                            conditions et restrictions applicables à la région ou au territoire où vous utilisez les
+                            informations des présentes. Les informations contenues dans ce site Web (ou consultées à
+                            partir de ce site Web) sont donc soumises aux différentes
+                            législations et réglementations qui s’appliquent dans ces territoires. Aucune des
+                            informations publiées ou mises à disposition par l’intermédiaire du site Web gkcratings.com
+                            n’est destinée à être publiée ou mise à disposition dans les territoires
+                            où sa publication ou mise à disposition entraînerait une violation de la législation ou de
+                            la réglementation en vigueur. Toute référence dans le site Web à des valeurs mobilières
+                            particulières ne doit pas être entendue comme une recommandation
+                            d’acheter ou de vendre ces valeurs, elles sont incluses uniquement à titre d’exemple. Les
+                            investisseurs doivent également noter qu’il est possible que les avis exprimés ne soient
+                            plus d’actualité et aient déjà été mis en œuvre par GK & Cie Ratings.
                         </p>
-                   </div>
-                   <p class="certificat-text">En cliquant sur le bouton "j'accepte", je certifie avoir lu les conditions générales d'utilisation.</p>
-                   <div class="container-button">
-                       <button class="button-type-1 acceptButtonWelcome" disabled onclick="closeWelcomePopup()">J'accepte</button>
-                   </div>
+                    </div>
+                    <p class="certificat-text">En cliquant sur le bouton "j'accepte", je certifie avoir lu les
+                        conditions générales d'utilisation.</p>
+                    <div class="container-button">
+                        <button class="button-type-1 acceptButtonWelcome" disabled
+                            onclick="closeWelcomePopup()">J'accepte</button>
+                    </div>
                 </div>
             </div>
         </div>

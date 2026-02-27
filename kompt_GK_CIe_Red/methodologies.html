@@ -100,7 +100,7 @@
         </header>
         <!--Main-->
         <main>
-            <section class="constraint-box bloc-type-twins-large section-default container-methodology" style="margin-top: 2rem;">
+            <section class="constraint-box bloc-type-twins-large section-default container-methodology">
                 <div class="bloc-type-twins-large-first lefft after-section">
                     <div class="know-contain spacing-responsive padding-default">
                         <div>
@@ -216,7 +216,7 @@
                     </div>
                 </div>
             <div class="bloc-type-twins-large-second rigght relative">
-                <img class="largers-images" src="./assets/images/largers/montain.png" alt="" >
+                <img class="largers-images img-methodology" src="./assets/images/largers/montain.png" alt="" >
             </div>
         </section>
     </main>
@@ -465,6 +465,15 @@
                 btn.textContent = "+";
                 container.classList.remove("expanded");
             }
+
+            const anyActive = document.querySelector(".methodology-details.active");
+
+            if (anyActive) {
+                container.classList.add("expanded");
+            } else {
+                container.classList.remove("expanded");
+            }
+ 
         });
     });
     </script>
