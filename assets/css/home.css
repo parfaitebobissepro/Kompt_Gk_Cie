@@ -906,3 +906,7 @@ cite {
 .know-contain-detail p{
     text-align: justify;
 }
+
+.know-contain .title1 {
+    color: var(--app-color-text-primary);
+}
