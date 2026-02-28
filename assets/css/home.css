@@ -327,7 +327,7 @@ cite {
     .financial_entrepreneurs .positive1 {
         line-height: inherit;
         margin: 0;
-        font-size: 2.16rem;
+        /* font-size: 2.16rem; */
     }
     
 }
@@ -337,11 +337,11 @@ cite {
     .positive-impact-title .title1{
         max-width: 500px;
     }
-
+/* 
     .financial_entrepreneurs strong {
         font-size: 1.4rem;
         font-weight: 600;
-    }
+    } */
 }
 
 @media (max-width:600px) {
@@ -358,10 +358,10 @@ cite {
     .positive-impact-title{
         top: 5rem;
     }
-    .financial_entrepreneurs strong {
+    /* .financial_entrepreneurs strong {
         font-weight: 550;
         font-size: 1.3rem;
-    }
+    } */
 
 }
 
@@ -900,4 +900,9 @@ cite {
 
 .light-weigth{
     font-weight: 300;
+}
+
+
+.know-contain-detail p{
+    text-align: justify;
 }

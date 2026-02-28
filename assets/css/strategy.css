@@ -37,7 +37,7 @@
 
 .strategy-image{
     width: 100%;
-    max-width: 720px;
+    max-width: 680px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
@@ -49,6 +49,7 @@
 
 #long-term-rating-image{
     width: 60%;
+    max-width: 463px;
 }
 
 #long-term-note-image{
@@ -267,6 +268,11 @@
         margin-right: 0;
         padding-top: 0 !important;
     }
+
+    .our-team-section .bloc-type-twins-large-second{
+        text-align: center !important;
+    }
+
     .strategy-image {
         margin-top: 20px;
     }
@@ -349,14 +355,16 @@
 
 .our-expertise-contain-title {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .our-expertise-group {
     column-gap: 100px;
+    row-gap: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "one two" "one two" "three two" "three four";
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* max-width: 800px; */
     max-width: 1000px;
     margin-left: auto;
@@ -515,7 +523,7 @@
 }
 
 .methodology-details-header .sous-titre {
-    font-size: 1.32rem;
+    font-size: 1.22rem;
     margin-right: 10px;
 }
 
@@ -600,6 +608,12 @@
         width: 80%;
     }
 
+    
+    .our-expertise-contain-title {
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
 }
 
 
@@ -624,10 +638,20 @@
 }
 
 .know-contain-detail .container-button .button-type-1:hover{
-    background-color: #d00004;
+    background-color: #d0000394;
     transition: background-color 0.3s ease;
 }
 
+.rating-bloc-ladder-contain-title{
+    justify-content: start !important;
+    margin-left: 40px;
+}
+
+.flex-bloc-arrow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 @media(max-width: 991.95px) {
     .methodology-details-content p{
@@ -638,5 +662,11 @@
    .know-contain-detail  .container-button{
         margin-top: 20px;
         margin-bottom: 15px;
+    }
+
+
+    .rating-bloc-ladder-contain-title{
+        justify-content: center !important;
+        margin-left: initial;
     }
 }
