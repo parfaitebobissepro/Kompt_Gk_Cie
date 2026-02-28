@@ -516,6 +516,7 @@
 
 .methodology-details-header .sous-titre {
     font-size: 1.32rem;
+    margin-right: 10px;
 }
 
 .btn-icon {
@@ -545,7 +546,8 @@
 
 .methodology-details.active .methodology-details-content {
     padding: 0px 20px 10px 20px;
-    max-height: 200px;
+    /* max-height: 200px; */
+    max-height: 400px;
 }
 
 .methodology-details-content p {
@@ -607,6 +609,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: right;
 }
 
 
@@ -615,9 +618,25 @@
 }
 
 
+.know-contain-detail .container-button{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.know-contain-detail .container-button .button-type-1:hover{
+    background-color: #d00004;
+    transition: background-color 0.3s ease;
+}
+
 
 @media(max-width: 991.95px) {
     .methodology-details-content p{
         margin-right: 0px;
+    }
+
+    
+   .know-contain-detail  .container-button{
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
 }
