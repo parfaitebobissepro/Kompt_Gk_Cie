@@ -1,2 +1,2 @@
-# Kompt_Gk_Cie
+# kompt-capital
 Gk_Cie
