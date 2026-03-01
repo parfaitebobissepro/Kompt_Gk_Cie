@@ -1,0 +1,397 @@
+.title1 {
+    color: var(--app-color-text-accent);
+}
+
+/** Start update live **/
+
+.our-team-title h1.title1:nth-of-type(1){
+    font-weight: 900;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 768px) {
+    .our-team-title h1.title1:nth-of-type(1){
+        font-size: 1.5rem;
+    }
+}
+
+
+.item-title{
+    font-size: 1rem;
+}
+
+.photos-profil-item-name svg{
+    width: 20px;
+    height: 20px;
+}
+
+/** End update live **/
+
+.resp-img {
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.sous-titre {
+    font-size: 1.36rem;
+    line-height: 1.86rem;
+    font-weight: 500;
+}
+
+.sous-titre span {
+    display: block;
+    text-align: center;
+}
+
+.spacing-responsive {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.photos-profil-list {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+
+.capital-markets-team .photos-profil-list{
+    gap: 0px;
+}
+
+
+.senior-advisor .know-contain-number{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    height: 105px;
+    width: 105px;
+    /* background-color: var(--app-color-primary); */
+    border: 1px solid var(--app-color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--app-color-text-accent);
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+
+/*
+----------our-team-section--------
+*/
+
+.our-team-section {
+    align-items: stretch;
+}
+
+.our-team {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.our-team-image {
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    object-fit: contain;
+}
+
+.our-team-section .bloc-type-twins-large-second {
+    text-align: left;
+}
+
+/*
+----------senior-advisor-section--------
+*/
+
+.senior-advisor-title,
+.partner-contain-title,
+.rejoignez-nous-title {
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.partner-contain-title > p {
+    text-align: center;
+}
+
+.senior-advisor .item-title {
+    font-size: 1.2rem;
+}
+
+.senior-advisor .item-subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.partner-contain .item-subtitle {
+    font-weight: 400;
+}
+.rejoignez-nous-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/*
+----------photos-profil div--------
+*/
+
+.photos-profil-list {
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width:1240px) {
+    .our-team {
+        margin-right: 15px;
+    }
+
+    .our-team-seg1 .sous-titre {
+        font-size: inherit;
+    }
+}
+
+@media (max-width:991.95px) {
+    .our-team-section {
+        margin-top: 2rem;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .our-team {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .our-team-image {
+        margin-top: 20px;
+    }
+
+    .after-section {
+        border-bottom: 0;
+        padding: 0;
+    }
+
+    .spacing-responsive {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media (max-width:750px) {
+    .spacing-responsive {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .senior-advisor-title,
+    .partner-contain-title,
+    .rejoignez-nous-title {
+        padding-bottom: 15px;
+    }
+
+    .photos-profil-list {
+        gap: 20px;
+        row-gap: 50px;
+    }
+}
+
+@media (max-width:475px) {
+    .resp-img {
+        margin-bottom: 14px;
+    }
+
+    .photo {
+        width: 14, 46%;
+        height: 14, 46%;
+    }
+
+    .sous-titre {
+        font-size: inherit;
+    }
+}
+
+
+
+
+/** Modal **/
+
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.team-modal .photos-profil-item {
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.team-modal .sous-titre span {
+    text-align: left;
+}
+
+.team-modal .paragraph {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* .bloc-type-twins-large:not(.senior-advisor-section) .photos-profil-item{
+    cursor: pointer;
+} */
+
+.photo{
+    filter: grayscale(1);
+}
+
+#photo1,#photo2{
+    filter: unset;
+}
+
+@media (max-width:962px) {
+
+    .team-modal .resp-img {
+        margin-bottom: 0;
+    }
+
+    .team-modal .resp-img img {
+        max-width: 40vw;
+        height: unset;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-modal .photos-profil-item {
+        flex-direction: column;
+    }
+
+    .team-modal .sous-titre span {
+        text-align: center;
+    }
+}
+
+
+/** Ajouts **/
+
+.know-contain-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:510px) {
+    .know-contain-list{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+.logo-list .flex-1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+
+.logo-list .resp-img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+/* Css ajouté pour GK_Cle  */
+
+.our-team{
+    max-width: 600px;
+}
+
+.our-publication-section {
+    display: block;
+}
+
+.our-publication-section-content {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-publication-section-content p {
+    text-align: center;
+}
+
+#publication-image {
+    width: 60%;
+}
