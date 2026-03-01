@@ -482,7 +482,7 @@
 
 .container-methodology {
     align-items: stretch;
-    background: url('./assets/images/largers/office.png') no-repeat;
+    background: url('../images/largers/office.png') no-repeat;
     background-position: top;
     background-size: 220vh;
 }
