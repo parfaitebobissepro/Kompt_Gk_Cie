@@ -482,7 +482,16 @@
 
 .container-methodology {
     align-items: stretch;
+    background: url('/assets/images/largers/office.png') no-repeat;
+    background-position: top;
+    background-size: 220vh;
 }
+
+.img-methodology{
+    display: none;
+}
+
+
 
 .lefft {
     /* flex: 0 0 50%; */
@@ -583,7 +592,11 @@
         object-fit: cover;
     }
 
-    .container-methodology {
+    .img-methodology{
+        display: inline-block;
+    }
+
+    .bloc-type-twins-large {
         flex-direction: column-reverse;
     }
     
@@ -610,7 +623,7 @@
 
     
     .our-expertise-contain-title {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         margin-top: 3rem;
     }
 
